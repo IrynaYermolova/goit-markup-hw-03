@@ -109,10 +109,14 @@
         </div>
       </section>
       <section class="section">
-        <div class="conteiner">
-        <h2 class="section-title">Чим ми займаємося</h2>
-        <ul>
-          <li class="list">
+        <!-- <div class="container"> -->
+        <!-- <div class="container foto-container"> -->
+        <h2 class="foto-title">Чим ми займаємося</h2>
+        <!-- </div> -->
+        <!-- <div class="img-container"> -->
+          <div class="container foto-container"></div>
+        <ul class="img-list">
+          <li class="foto-list">
             <img
               class="list-item"
               src="./images/img1.jpg"
@@ -120,7 +124,7 @@
               width="370"
             />
           </li>
-          <li class="list">
+          <li class="foto-list">
             <img
               class="list-item"
               src="./images/img2.jpg"
@@ -128,7 +132,8 @@
               width="370"
             />
           </li>
-          <li class="list">
+          <li class="foto-list">
+            
             <img
               class="list-item"
               src="./images/img3.jpg"
@@ -137,12 +142,13 @@
             />
           </li>
         </ul>
-      </div>
+      <!-- </div> -->
+        </div>
       </section>
       <section class="section-name">
-        <div class="conteiner">
+        <div class="container managment-container">
         <h2 class="section-title">Наша команда</h2>
-        <ul>
+        <ul class="title-list">
           <li class="list-name">
             <img
               class="name-title"
@@ -150,38 +156,48 @@
               alt="Ігор Дем'яненко"
               width="270"
             />
+            <div class="team-wrapper">
             <h3 class="name-list-title">Ігор Дем'яненко</h3>
             <p lang="en" class="job-list-title">Product Designer</p>
-          </li>
-          <li class="list-name">
-            <img src="./images/olga.jpg" alt="Ольга Рєпіна" width="270" />
+          </div>
+        </li>
+        <li class="list-name">
+            <img class="name-title" src="./images/olga.jpg" alt="Ольга Рєпіна" width="270" />
+            <div class="team-wrapper">
             <h3 class="name-list-title">Ольга Рєпіна</h3>
             <p lang="en" class="job-list-title">Frontend Developer</p>
+          </div>
           </li>
           <li class="list-name">
-            <img src="./images/mikola.jpg" alt="Микола Тарасов" width="270" />
+            <img class="name-title" src="./images/mikola.jpg" alt="Микола Тарасов" width="270" />
+          <div class="team-wrapper">
             <h3 class="name-list-title">Микола Тарасов</h3>
             <p lang="en" class="job-list-title">Marketing</p>
+          </div>
           </li>
           <li class="list-name">
             <img
-              src="./images/michailo.jpg"
+              class="name-title" src="./images/michailo.jpg"
               alt="Михайло Єрмаков"
               width="270"
             />
+          <div class="team-wrapper">
             <h3 class="name-list-title">Михайло Єрмаков</h3>
             <p lang="en" class="job-list-title"><a href="/"></a>Designer</p>
+          </div>
           </li>
         </ul>
         </div>
       </section>
     </main>
     <footer class="page-footer">
-      <a href="./index.html" class="logo-link link">
-        <span class="first-part">Web</span
-        ><span class="finish-part">Studio</span></a
-      >
+      <div class="container">
+        <div class="logo-container-footer">
+      <a  class="footer-logo" href="./index.html" class="logo-link link">
+        <span class="first-part">Web</span><span class="finish-part">Studio</span></a></div>
+      
       <address class="contacts">
+        <div class="address-container">
         <ul class="contact-lists">
           <li class="contact-list list">
             <a
@@ -203,7 +219,9 @@
             >
           </li>
         </ul>
+      </div>
       </address>
+    </div>
     </footer>
   </body>
 </html>
