@@ -494,61 +494,65 @@ font-style: normal;
   margin-right: auto;
   margin-left: auto;
   justify-content: center;
-  
-}
-.poster-list {
-  display: flex;
-}
-  /* display: inline-block;
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  
-  display: flex; 
+  gap: 8px;
 }
 
-.button {
-  /* Font-size: 16px;
- Line-height: calc(26 / 16);
- vertical-align: Top;
- letter-spacing: 3%;
- color: var(--main-color);
- background-color: #FFFFFF; */
- text-align: center;
-
-
-}
-.button:not(:last-child) {
-  margin-right: 8px;
+.hero-first-btn {
+  display: inline-block;
+  margin-top: 94px;
+  margin-bottom: 50px;
+  border-radius: 4px;
+  border: solid transparent;
+  padding: 6px 25px;
+  cursor: pointer;
+  font-style: medium;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  vertical-align: top;
+  letter-spacing: 3%;
+  color: var(--main-color);
+  border-color: #F5F4FA;
 }
 
 .hero-last-btn {
   display: inline-block;
+  margin-top: 94px;
+  margin-bottom: 50px;
+  border-radius: 4px;
+  border: solid transparent;
+  padding: 6px 22px;
+  cursor: pointer;
   font-style: medium;
-  Font-size: 16px;
-  Line-height: calc(26 / 16);
-  vertical-align: Top;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  vertical-align: top;
   letter-spacing: 3%;
   color: var(--main-color);
-  background-color:#F5F4FA;
-  cursor: pointer;
-  border-radius: 4px ;
-  text-align: center;
-  border: solid transparent;
-  margin-bottom: 50px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 100px;
-  padding: 6px 22px;
-  justify-content: center;
+  border-color: #F5F4FA;
 
+}
+
+.hero-first-btn:hover,
+.hero-first-btn:focus {
+  color: var(--main-bg-color);
+  background-color: #2196F3;
 }
 
 .hero-last-btn:hover,
 .hero-last-btn:focus {
-  color: #FFFFFF;
+  color: var(--main-bg-color);
   background-color: #2196F3;
 }
+
+/* .hero-list:not(:last-child) {
+  margin-right: 8px;
+} */
+.poster-list {
+  display: flex;
+}
+  
+
+
 
 /* фото карточки */
 
@@ -559,15 +563,8 @@ font-style: normal;
   margin-bottom: 30px;
   justify-content: start;
 }
-/* .list-item { */
-  
-  /* .flex-basis: calc((100% - 30px * 8) / 9 ){
-   margin-right: 30px;
-} */
 
-/* .list-item :nth-child( 3n) {
-  margin-right: 30px;
-} */
+
 
 .title-text {
   font-style: bold;
