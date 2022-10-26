@@ -23,6 +23,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+
+
 :root {
   --second-font: "Raleway";
   --accent-color: #2196f3;
@@ -77,6 +79,10 @@ body {
 }
 .header-nav-link {
   padding: 32px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
   color: var(--main-color);
 
 }
@@ -85,7 +91,7 @@ body {
 
 
 .header-nav-item:not(:last-child) {
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 
 
@@ -123,8 +129,8 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-.header-auth:not(:last-child) {
-  margin-left: 50px;
+/* .header-auth:not(:last-child) {
+  margin-left: 50px; */
 
 }
 .header-auth {
@@ -180,6 +186,7 @@ header-nav-item {
 /* секция герой */
 
 .hero {
+  min-width: 1200px;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
@@ -213,6 +220,8 @@ header-nav-item {
   border-radius: 4px;
   min-width: 216px;
   border: solid transparent;
+  text-align: center;
+  max-height: 50px;
   
 }
 
@@ -325,6 +334,7 @@ color: var(--second-color);
   padding-bottom: 94px;
 }
 .section-name {
+  min-width: 1200px;
   background-color: #F5F4FA;
   display: block;
   padding-bottom: 94px;
@@ -517,14 +527,15 @@ font-style: normal;
   border: solid transparent;
   padding: 6px 22px;
   cursor: pointer;
-  font-style: medium;
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
   vertical-align: top;
   letter-spacing: 0.03em;
   color: var(--main-color);
   background-color: #F5F4FA;
-  border-color:none;
+  
 
 }
 
