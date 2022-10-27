@@ -222,6 +222,8 @@ header-nav-item {
   border: solid transparent;
   text-align: center;
   max-height: 50px;
+  border: none;
+  padding: 10px 32px;
   
 }
 
